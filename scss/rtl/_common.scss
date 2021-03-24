@@ -1,0 +1,104 @@
+//
+// _common.scss
+//
+//Blog
+.sidebar {
+    .widget {
+        .widget-search, .searchform { 
+            input[type="text"] {
+                padding-left: 45px !important;
+                padding-right: auto;
+            }
+            input[type="submit"] {
+                left: 10px !important;
+                right: auto;
+            }
+        }
+        .widget-search {
+            .searchform:after {
+                right: auto;
+                left: 16px !important;
+            }
+        }
+        .post-recent {
+            .post-recent-content {
+                padding-right: 10px !important;
+                padding-left: auto;
+            }
+        }
+        .tagcloud {
+            > a {
+                margin: 5px 10px 5px 0;
+            }
+        }
+        .widget-grid {
+            .item {
+                float: right;
+                a {
+                    img {
+                        right: 0 !important;
+                        left: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+.media-list {
+    .sub-comment {
+        border-right: 2px dashed $gray-300;
+        border-left: 0;
+    }
+}
+
+//Pricing
+.pricing {
+    &.best-plan {
+        .lable {
+            left: -65px !important;
+            right: auto;
+            transform: rotate(-45deg);
+        }
+    }
+}
+
+//Services
+.services {
+    .big-icon {
+        left: auto;
+        right: 0 !important;
+        &.icon-right {
+            left: -20px !important;
+            right: auto !important;
+        }
+    }
+}
+
+//User
+@media (max-width: 768px) {
+    .cover-user {
+        .cover-user-content {
+            text-align: right !important;
+        }   
+    }
+}
+
+//Testimonial
+.no-js .owl-carousel, .owl-carousel.owl-loaded, .slick-slider {
+    direction: ltr;
+}
+
+//Switcher
+#style-switcher {
+    .bottom {
+        background: none repeat scroll 0 0 $white;
+        a {
+            &.settings {
+                i {
+                    margin-right: 6px !important;
+                    margin-left: auto;
+                }
+            }
+        }
+    }
+}

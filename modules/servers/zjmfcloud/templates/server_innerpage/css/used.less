@@ -1,0 +1,36 @@
+/deep/ .el-date-editor.el-input {
+  width: 180px;
+}
+
+.chart_title_box {
+  display: flex;
+  align-items: center;
+  // justify-content: space-between;
+
+  .title {
+    font-size: 18px;
+    color: #333333;
+    font-weight: 600;
+  }
+}
+
+.chart_content_box {
+  height: 600px;
+  margin: 10px 0;
+}
+
+@media screen and (max-width: 768px) {
+  ::v-deep {
+    .el-date-editor.el-input {
+      margin-bottom: 10px;
+    }
+  }
+  .chart_title_box {
+    flex-direction: column !important;
+    align-items: flex-start;
+
+    .title {
+      margin-bottom: 10px;
+    }
+  }
+}

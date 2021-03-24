@@ -1,0 +1,223 @@
+//
+// bootstrap-custom.scss
+//
+//li (list inline item)
+.list-inline-item:not(:last-child) {
+    margin-left: 0px;
+    margin-right: auto;
+}
+.list-unstyled {
+    padding-right: 0 !important;
+    padding-left: auto;
+}
+.list-inline {
+    padding-right: 0;
+    list-style: none;
+}
+//modal
+.modal-open {
+    padding-left: 0 !important;
+}
+.modal-header .close {
+    margin: -1rem auto -1rem -1rem;
+}
+
+.input-group>.custom-select:not(:last-child), .input-group>.form-control:not(:last-child) {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+.input-group>.input-group-append>.btn, 
+.input-group>.input-group-append>.input-group-text, 
+.input-group>.input-group-prepend:first-child>.btn:not(:first-child), 
+.input-group>.input-group-prepend:first-child>.input-group-text:not(:first-child), 
+.input-group>.input-group-prepend:not(:first-child)>.btn, .input-group>.input-group-prepend:not(:first-child)>.input-group-text {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+//margin padding
+.ml-auto {
+    margin-right: auto;
+    margin-left: 0 !important;
+}
+.mr-auto {
+    margin-left: auto;
+    margin-right: 0 !important;
+}
+.mr-1 {
+    margin-left: 4px !important;
+    margin-right: auto;
+}
+.mr-2 {
+    margin-left: 8px !important;
+    margin-right: auto;
+}
+.mr-3 {
+    margin-left: 16px !important;
+    margin-right: auto;
+}
+.mr-4 {
+    margin-left: 24px !important;
+    margin-right: auto;
+}
+.mr-5 {
+    margin-left: 48px !important;
+    margin-right: auto;
+}
+
+.ml-1 {
+    margin-right: 4px !important;
+    margin-left: auto;
+}
+.ml-2 {
+    margin-right: 8px !important;
+    margin-left: auto;
+}
+.ml-3 {
+    margin-right: 16px !important;
+    margin-left: auto;
+}
+.ml-4 {
+    margin-right: 24px !important;
+    margin-left: auto;
+}
+.ml-5 {
+    margin-right: 48px !important;
+    margin-left: auto;
+}
+
+//padding
+.pr-1 {
+    padding-left: 4px !important;
+    padding-right: auto;
+}
+.pr-2 {
+    padding-left: 8px !important;
+    padding-right: auto;
+}
+.pr-3 {
+    padding-left: 16px !important;
+    padding-right: auto;
+}
+.pr-4 {
+    padding-left: 24px !important;
+    padding-right: auto;
+}
+.pr-5 {
+    padding-left: 48px !important;
+    padding-right: auto;
+}
+
+.pl-1 {
+    padding-right: 4px !important;
+    padding-left: auto;
+}
+.pl-2 {
+    padding-right: 8px !important;
+    padding-left: auto;
+}
+.pl-3 {
+    padding-right: 16px !important;
+    padding-left: auto;
+}
+.pl-4 {
+    padding-right: 24px !important;
+    padding-left: auto;
+}
+.pl-5 {
+    padding-right: 48px !important;
+    padding-left: auto;
+}
+
+@media (min-width: 992px) {
+    .mr-lg-2, .mx-lg-2 {
+        margin-left: 8px !important;
+        margin-right: auto;
+    }
+    .mr-lg-3, .mx-lg-3 {
+        margin-left: 16px !important;
+        margin-right: auto;
+    }
+    .mr-lg-4, .mx-lg-4 {
+        margin-left: 24px !important;
+        margin-right: auto;
+    }
+    .mr-lg-5, .mx-lg-5 {
+        margin-left: 48px !important;
+        margin-right: auto;
+    }
+    
+    .ml-lg-3, .mx-lg-3 {
+        margin-right: 16px !important;
+        margin-left: auto;
+    }
+    .ml-lg-4, .mx-lg-4 {
+        margin-right: 24px !important;
+        margin-left: auto;
+    }
+    .ml-lg-5, .mx-lg-5 {
+        margin-right: 48px !important;
+        margin-left: auto;
+    }
+
+    .pl-lg-3, .px-lg-3 {
+        padding-right: 16px !important;
+        padding-left: auto;
+    }
+
+    .text-lg-left {
+        text-align: right !important;
+    }
+
+    .offset-lg-4 {
+        margin-right: 33.333333%;
+    }
+        
+    .offset-lg-6 {
+        margin-right: 50%;
+    }
+}
+
+@media (min-width: 768px){
+    .ml-md-4, .mx-md-4 {
+        margin-right: 24px !important;
+        margin-left: 0 !important;
+    }
+    .mr-md-4, .mx-md-4 {
+        margin-left: 24px !important;
+        margin-right: 0 !important;
+    }
+    .pr-md-3, .px-md-3 {
+        padding-left: 16px !important;
+        padding-right: 0 !important;
+    }
+    .pl-md-3, .px-md-3 {
+        padding-right: 16px !important;
+        padding-left: 0 !important;
+    }
+    .pl-lg-5, .px-lg-5 {
+        padding-right: 48px !important;
+        padding-left: 0 !important;
+    }
+    .text-md-left {
+        text-align: right!important;
+    }
+    .text-md-right {
+        text-align: left!important;
+    }
+}
+
+@media (min-width: 576px) {
+    .text-sm-left {
+        text-align: right!important;
+    }
+
+    .text-sm-right {
+        text-align: left!important;
+    }
+}

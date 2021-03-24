@@ -1,0 +1,962 @@
+/* 全局样式 */
+
+html,
+
+body,
+
+#app {
+
+  width: 100%;
+
+  height: 100%;
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+  font-size: 14px;
+
+  color: #333;
+
+
+
+}
+
+
+
+
+
+html {
+
+  width: 100%;
+
+  height: 100%;
+
+}
+
+
+
+/* fade-transform */
+
+.fade-transform-leave-active,
+
+.fade-transform-enter-active {
+
+  transition: all 0.1s;
+
+}
+
+
+
+.fade-transform-enter {
+
+  opacity: 0;
+
+  transform: translateX(30px);
+
+}
+
+
+
+.fade-transform-leave-to {
+
+  opacity: 0;
+
+  transform: translateX(-30px);
+
+}
+
+
+
+/* 火柴棍标题 */
+
+.page-title {
+
+  display: inline-block;
+
+  /* width: 300px; */
+
+  height: 28px;
+
+  line-height: 28px;
+
+  font-size: 22px;
+
+  border-left: 4px solid #007bfc;
+
+  margin: 29px 0 30px 0;
+
+  text-indent: 29px;
+
+}
+
+
+
+/* 标题栏按钮 */
+
+.title_btn {
+
+  position: absolute;
+
+  right: 30px;
+
+  top: 34px;
+
+}
+
+
+
+.fl {
+
+  float: left;
+
+}
+
+
+
+.fr {
+
+  float: right;
+
+}
+
+
+
+.tac {
+
+  text-align: center;
+
+}
+
+
+
+.tal {
+
+  text-align: left;
+
+}
+
+
+
+.tar {
+
+  text-align: right;
+
+}
+
+
+
+.flexc {
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+}
+
+
+
+.flexc-v {
+
+  display: flex;
+
+  align-items: center;
+
+}
+
+
+
+/* slider tooltip样式 */
+
+/* .custom-tooltip {
+
+ background: #fff!important;
+
+ color: #333!important
+
+}
+
+.el-tooltip__popper[x-placement^=top] .popper__arrow::after,
+
+.el-tooltip__popper[x-placement^=top] .popper__arrow::after {
+
+  border-top-color: #fff;  
+
+} */
+
+
+
+.mt-10 {
+
+  margin-top: 10px;
+
+}
+
+
+
+.mt-20 {
+
+  margin-top: 20px;
+
+}
+
+.mt-30 {
+
+  margin-top: 30px;
+
+}
+
+.mt-40 {
+
+  margin-top: 40px;
+
+}
+
+
+
+.mb-10 {
+
+  margin-bottom: 10px;
+
+}
+
+
+
+.mb-20 {
+
+  margin-bottom: 20px;
+
+}
+
+.mb-30 {
+
+  margin-bottom: 30px;
+
+}
+
+.mb-40 {
+
+  margin-bottom: 40px;
+
+}
+
+
+
+.mr-10 {
+
+  margin-right: 10px;
+
+}
+
+.mr-5 {
+
+  margin-right: 5px;
+
+}
+
+.mr-20 {
+
+  margin-right: 20px;
+
+}
+
+.mr-50 {
+
+  margin-right: 50px;
+
+}
+
+
+
+.ml-20 {
+
+  margin-left: 20px;
+
+}
+
+
+
+.mt-15 {
+
+  margin-top: 15px;
+
+}
+
+
+
+.ml-10 {
+
+  margin-left: 10px;
+
+}
+
+
+
+.pl-10 {
+
+  padding-left: 10px;
+
+}
+
+
+
+.pl-20 {
+
+  padding-left: 20px;
+
+}
+
+
+
+.p-20 {
+
+  padding: 20px;
+
+}
+
+
+
+.pt-10 {
+
+  padding-top: 10px;
+
+}
+
+
+
+.lh-20 {
+
+  line-height: 20px;
+
+}
+
+
+
+.w-100 {
+
+  width: 100%;
+
+}
+
+
+
+.h-100 {
+
+  height: 100%;
+
+}
+
+
+
+.cursor-pointer {
+
+  cursor: pointer;
+
+}
+
+
+
+.fz-12 {
+
+  font-size: 12px;
+
+}
+
+.fz-14 {
+
+  font-size: 14px;
+
+}
+
+.fz-16 {
+
+  font-size: 16px;
+
+}
+
+.fz-22 {
+
+  font-size: 22px;
+
+}
+
+
+
+/* 给按钮添加2px的圆角边框 */
+
+.el-button {
+
+  border-radius: 2px;
+
+}
+
+
+
+/* 外层卡片 */
+
+.layout_card {
+
+  /* min-width: 897px; */
+
+  min-height: calc(100vh - 120px);
+
+  background-color: #fff;
+
+  box-shadow: 0px 4px 10px 0px rgba(19, 25, 46, 0.1);
+
+  box-sizing: border-box;
+
+  /* padding-bottom: 20px; */
+
+}
+
+
+
+/* 分页器样式 */
+
+.el-pagination .el-pager li {
+
+  width: 40px;
+
+  height: 40px;
+
+  line-height: 40px;
+
+  margin: 0 6px;
+
+  font-weight: 400;
+
+}
+
+
+
+.el-pagination button {
+
+  height: 40px;
+
+}
+
+
+
+.el-pagination button span {
+
+  height: 40px;
+
+  line-height: 40px;
+
+  padding: 0 10px;
+
+}
+
+
+
+.el-pagination__total {
+
+  height: 40px !important;
+
+  line-height: 40px !important;
+
+}
+
+
+
+.el-pagination__sizes {
+
+  line-height: 40px !important;
+
+}
+
+
+
+/* 共多少条样式，请给最外层盒子加相对定位 */
+
+.el-pagination__total {
+
+  position: absolute;
+
+  left: 10px;
+
+}
+
+
+
+.el-pagination__sizes {
+
+  position: absolute;
+
+  left: 70px;
+
+}
+
+
+
+/* 表单label样式 */
+
+.el-form-item__label {
+
+  color: #7c7c7c;
+
+}
+
+
+
+/* 数字输入框内容居左 */
+
+.el-input-number .el-input__inner {
+
+  text-align: left;
+
+}
+
+
+
+.el-menu-item-group__title {
+
+  color: #7985b2;
+
+}
+
+
+
+/* dialog样式 */
+
+.el-dialog__header {
+
+  border-bottom: 1px solid #e6e7eb;
+
+}
+
+
+
+/* 下拉框弹出块宽度自媒体查询 */
+
+@media screen and (max-width:600px) {
+
+  .el-select-dropdown__list {
+
+    max-width: 300px;
+
+  }
+
+}
+
+
+
+/*清除浮动*/
+
+.clearfix:after {
+
+  content: "";
+
+  display: block;
+
+  height: 0;
+
+  clear: both;
+
+  visibility: hidden;
+
+}
+
+
+
+.clearfix {
+
+  *zoom: 1;
+
+}
+
+
+
+
+
+@media screen and (max-width: 955px) {
+
+
+
+  /* 移动端隐藏分页中总条数和每页多少条下拉框 */
+
+  .el-pagination__total,
+
+  .el-pagination__sizes {
+
+    display: none !important;
+
+  }
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+  .el-dialog {
+
+    width: 95% !important;
+
+  }
+
+
+
+  .el-dialog__body {
+
+    padding-left: 0 !important;
+
+    padding-right: 0 !important;
+
+  }
+
+
+
+  .number {
+
+    width: 20px !important;
+
+    min-width: 20px !important;
+
+    height: 20px !important;
+
+    line-height: 20px !important;
+
+  }
+
+
+
+  .btn-prev,
+
+  .btn-next {
+
+    height: 20px !important;
+
+    line-height: 20px !important;
+
+
+
+  }
+
+
+
+  .btn-next span {
+
+    height: 20px !important;
+
+    line-height: 20px !important;
+
+  }
+
+
+
+  .btn-prev span {
+
+    height: 20px !important;
+
+    line-height: 20px !important;
+
+  }
+
+
+
+  .btn-quicknext,
+
+  .btn-quickprev {
+
+    min-width: 20px !important;
+
+    width: 20px !important;
+
+    height: 20px !important;
+
+    line-height: 20px !important;
+
+  }
+
+
+
+  .el-pager .more::before {
+
+    line-height: 20px !important;
+
+  }
+
+
+
+  .el-message-box {
+
+    width: 90%;
+
+  }
+
+
+
+  .layout_card {
+
+    min-height: calc(100vh - 70px);
+
+  }
+
+
+
+  .page-title {
+
+    width: 200px;
+
+  }
+
+}
+
+
+
+/* 尝试兼容ios */
+
+.el-table__body {
+
+  width: 100%;
+
+  table-layout: fixed !important;
+
+}
+
+
+
+
+
+/* 全局滚动条 */
+
+::-webkit-scrollbar {
+
+  width: 8px;
+
+  height: 1px;
+
+}
+
+
+
+::-webkit-scrollbar-thumb {
+
+  border-radius: 8px;
+
+  -webkit-box-shadow: none;
+
+  background-image: linear-gradient(to top, #c7d8e2 0%, #dadada20 100%);
+
+  background-blend-mode: screen;
+
+  -webkit-box-shadow: none;
+
+}
+
+
+
+::-webkit-scrollbar-track {
+
+  -webkit-box-shadow: none;
+
+  border-radius: 8px;
+
+  background-color: none;
+
+  -webkit-box-shadow: none;
+
+}
+
+
+
+/*  message 距离顶部高度 */
+
+.el-message {
+
+  top: 60px !important;
+
+}
+
+
+
+div {
+
+  -webkit-tap-highlight-color: transparent;
+
+}
+
+
+
+input {
+
+  outline: none;
+
+}
+
+
+
+.el-dialog__title {
+
+  font-size: 16px;
+
+}
+
+
+
+/* 0708 slider 样式更改 */
+
+.el-slider__button {
+
+  background-color: #007BFC;
+
+}
+
+
+
+.el-slider__button-wrapper {
+
+  top: -16px;
+
+}
+
+
+
+.el-slider__button {
+
+  width: 10px;
+
+  height: 10px;
+
+}
+
+
+
+.el-slider__runway,
+
+.el-slider__bar {
+
+  height: 3px;
+
+}
+
+
+
+/* 0715 增加slider可点击范围 */
+
+.el-slider__runway::after {
+
+  content: '';
+
+  display: inline-block;
+
+  width: 100%;
+
+  height: 40px;
+
+  position: absolute;
+
+  top: -20px;
+
+}
+
+
+
+/* 解决chrome自动填充表单的背景颜色 */
+
+input:-webkit-autofill {
+
+  -webkit-box-shadow: 0 0 0px 1000px white inset;
+
+  box-shadow: 0 0 0px 1000px white inset;
+
+  -webkit-text-fill-color: #333;
+
+}
+
+
+
+/* 0720 */
+
+.el-table-column--selection .cell {
+
+  padding-left: 10px;
+
+}
+
+
+
+/* 0731 内容超出显示省略号 */
+
+.overflow-ellipsis {
+
+  overflow: hidden;
+
+  white-space: nowrap;
+
+  text-overflow: ellipsis;
+
+}
+
+
+
+/* 0916 下拉框字号 */
+
+.el-select-dropdown__item {
+
+  font-size: 12px;
+
+}
+
+
+
+/* 1010 装饰符 */
+
+.blue-point {
+
+  display: inline-block;
+
+  width: 4px;
+
+	height: 4px;
+
+	background-color: #2c67ee;
+
+	border-radius: 2px;
+
+}
+
+
+
+.white-point {
+
+  display: inline-block;
+
+  width: 4px;
+
+	height: 4px;
+
+	background-color: #f5f4f7;
+
+	border-radius: 2px;
+
+}
+
+.el-tabs__nav-next, .el-tabs__nav-prev{
+  line-height: 30px !important;
+
+}
+
+.hot-migrate{
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #ff6a00;
+}
+.hot-migrate .icon-shujuqianyi{
+  font-size: 28px;
+  color: #fff;
+}
+
+.cold-migrate{
+  background: #009944;
+}

@@ -1,0 +1,79 @@
+/* *****************************************************
+
+    ** Custom Stylesheet special styles for 1.2 version **
+
+    Any custom styling you want to apply should be
+    defined here.
+
+***************************************************** */
+.alert-danger {
+    background: #ffce3b;
+    border-color: #ffce3b;
+    color: #111;
+    border-radius: 6px;
+    text-align: left;
+}
+.alert-danger ul{
+    padding: 0;
+    font-size: 12px;
+    list-style: none;
+}
+#alertUnpaidInvoice.alert.alert-warning .pull-right {
+    border-radius: 2px;
+    font-size: 11px;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#alertUnpaidInvoice.alert.alert-warning .pull-right a.btn{
+    margin: 0;
+    color: #111!important;
+    background: transparent;
+    border-color: #111!important;
+    border: 2px solid #333;
+    font-weight: bold;
+    padding: 7px 15px;
+    font-size: 11px;
+}
+#alertUnpaidInvoice.alert.alert-warning .pull-right a.btn:hover{
+    color: #111!important;
+    background: #fff;
+}
+.alert.alert-danger .pull-right {
+    border-radius: 2px;
+    font-size: 11px;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.alert.alert-danger .pull-right a.btn{
+    margin: 0;
+    color: #111!important;
+    background: transparent;
+    border-color: #111!important;
+    border: 2px solid #333;
+    font-weight: bold;
+    padding: 7px 15px;
+    font-size: 11px;
+}
+.alert.alert-danger .pull-right a.btn:hover{
+    color: #111!important;
+    background: #fff;
+}
+.alert-success {
+    background: #b0f5c8;
+    border-color: #b0f5c8;
+    color: #111;
+    border-radius: 2px;
+}
+.alert-success strong{
+    margin: 0;
+    font-weight: 400;
+    font-size: 12px;
+}
+.coowhm-warning.active {
+    box-shadow: none;
+}
+

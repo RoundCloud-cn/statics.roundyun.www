@@ -1,0 +1,78 @@
+//
+// _components-rtl.scss
+//
+
+//Alert
+.alert {
+    &.alert-dismissible {
+        padding-left: 30px !important;
+        padding-right: auto;
+        .close {
+            left: -10px !important;
+            right: auto;
+        }
+    }
+}
+
+//Pagination
+.pagination {
+    .page-item {        
+        &:first-child {
+            .page-link {
+                border-top-left-radius: 0;
+                border-bottom-left-radius: 0;
+                border-top-right-radius: 5px;
+                border-bottom-right-radius: 5px;
+            }
+        }
+        &:last-child {
+            .page-link {
+                border-top-right-radius: 0;
+                border-bottom-right-radius: 0;
+                border-top-left-radius: 5px;
+                border-bottom-left-radius: 5px;
+            }
+        }
+    }
+}
+
+//FAQ / ACCORDIONS
+.faq-content {
+    .card {
+        .faq {           
+            .card-header {
+                padding-left: 40px !important;
+                padding-right: auto;
+            }
+        }  
+        a.faq[data-toggle=collapse]{
+            &:before {
+                left: 20px !important;
+                right: auto;
+            }
+        }
+    }
+}
+
+.subscribe-form {
+    input {
+        padding-left: 130px !important;
+        padding-right: 20px;
+    }
+    button {
+        left: 5px !important;
+        right: auto;
+    }
+}
+
+//back to top
+.back-to-top {
+    left: 30px;
+    right: auto;
+}
+
+//back-to-home
+.back-to-home {
+    left: 2%;
+    right: auto;
+}

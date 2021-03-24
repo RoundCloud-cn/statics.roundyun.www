@@ -1,0 +1,13 @@
+/*---------------------------------------
+ *                                      *
+ *       Add Your Custom CSS Here       *
+ *                                      *
+ ---------------------------------------*/
+#header-holder {
+    position: relative;
+    z-index: 10;
+    background: #022384;
+    background: -webkit-linear-gradient(45deg, #1045db 0%, #1045db 13%, #15095e 52%, #15095e 100%);
+    background: -o-linear-gradient(45deg, #1045db 0%, #1045db 13%, #15095e 52%, #15095e 100%);
+    background: linear-gradient(45deg, #1045db 0%, #1045db 13%, #15095e 52%, #15095e 100%);
+}

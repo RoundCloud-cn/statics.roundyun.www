@@ -1,0 +1,63 @@
+/* Template Name: Hostick - Web Hosting HTML Template
+   Author: Shreethemes
+   Email: shreethemes@gmail.com
+   Website: http://www.shreethemes.in/
+   Version: 1.1.0
+   Created: May 2020
+   File Description: Main Css file of the template
+*/
+
+/*****************************/
+/*         INDEX             */
+/*============================
+ *     01.  Variables        *
+ *     02.  General          *
+ *     03.  Helpre           *
+ *     04.  Bootstrap Custom *
+ *     05.  Components       *
+ *     06.  Menu             *
+ *     07.  Home             *
+ *     08.  Services         *
+ *     09.  CTA              *
+ *     10.  Pricing          *
+ *     11.  Testimonial      *
+ *     12.  User             *
+ *     13.  Blogs / News     *
+ *     14.  Contact          *
+ *     15.  Footer           *
+ ============================*
+
+ *********************************
+ *         RTL SCSS              *
+ *********************************
+ *     01.  General RTL          *
+ *     02.  Helper RTL           *
+ *     03.  Bootstrap Custom RTL *
+ *     04.  Components RTL       *
+ *     05.  Menu RTL             *
+ *     06.  Common               *
+ ================================*/
+
+ @import "variables";
+ @import "general";
+ @import "helper";
+ @import "bootstrap-custom";
+ @import "components";
+ @import "menu";
+ @import "home";
+ @import "service";
+ @import "cta";
+ @import "pricing";
+ @import "testimonial";
+ @import "user";
+ @import "blog";
+ @import "contact";
+ @import "footer";
+
+// RTL Version
+@import "rtl/general-rtl";
+@import "rtl/helper-rtl";
+@import "rtl/bootstrap-custom-rtl";
+@import "rtl/components-rtl";
+@import "rtl/menu-rtl";
+@import "rtl/common";

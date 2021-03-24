@@ -1,0 +1,39 @@
+//
+// helper.scss
+//
+.text-left {
+    text-align: right !important;
+}
+
+.text-right {
+    text-align: left !important;
+}
+
+.float-right {
+    float: left !important;
+}
+.float-left {
+    float: right !important;
+}
+dd {
+    margin-right: 0 !important;
+}
+
+
+.gradient-overlay {
+    background: linear-gradient(to left, lighten($blue, 30%), $primary) !important;
+}
+.home-shape-arrow {
+    right: 0 !important;
+    left: auto;
+}
+
+//Switcher
+#style-switcher {
+    .t-rtl-light {
+        display: none;
+    }
+    .t-ltr-light {
+        display: inline-block;
+    }
+}
